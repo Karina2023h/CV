@@ -1,0 +1,150 @@
+/* Вирівнювання для маленьких екранів */
+@media (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+
+  header {
+    padding: 15px 20px;
+    /* Зменшуємо відступи в заголовку */
+  }
+
+  header .container {
+    flex-direction: column;
+    /* Переключаємо на колонку */
+    align-items: center;
+  }
+
+  .logo-vc {
+    font-size: 28px;
+    /* Зменшуємо розмір логотипу */
+  }
+
+  nav .nav-logo {
+    gap: 20px;
+    /* Зменшуємо проміжок між навігаційними елементами */
+  }
+
+  .hero-section {
+    padding: 40px 20px;
+    /* Зменшуємо відступи у секції героя */
+  }
+
+  .container-hero-content {
+    flex-direction: column;
+    /* Змінюємо на колонку для мобільних */
+    align-items: center;
+    /* Центруємо вміст */
+  }
+
+  .profile-photo {
+    width: 80%;
+    /* Зменшуємо ширину зображення */
+    margin-bottom: 20px;
+    /* Додаємо відступ знизу */
+  }
+
+  h1 {
+    font-size: 36px;
+    /* Зменшуємо розмір заголовка */
+  }
+
+  .job-title {
+    font-size: 24px;
+    /* Зменшуємо розмір підзаголовка */
+  }
+
+  .intro {
+    font-size: 16px;
+    /* Зменшуємо розмір тексту */
+  }
+
+  .contact {
+    font-size: 14px;
+    /* Зменшуємо розмір контактного тексту */
+  }
+
+  .skills-grid {
+    flex-direction: column;
+    /* Змінюємо напрямок для мобільних */
+    align-items: center;
+    /* Центруємо вміст */
+  }
+
+  .skills-column {
+    width: 100%;
+    /* Ширина колонки 100% на мобільних */
+    margin-bottom: 20px;
+    /* Додаємо відступ між колонками */
+  }
+
+  .experience-grid {
+    flex-direction: column;
+    /* Змінюємо напрямок для мобільних */
+  }
+
+  .experience-item {
+    width: 100%;
+    /* Ширина 100% на мобільних */
+  }
+
+  .info-grid {
+    flex-direction: column;
+    /* Змінюємо напрямок для мобільних */
+    align-items: center;
+    /* Центруємо вміст */
+  }
+
+  .stats-grid {
+    flex-direction: column;
+    /* Змінюємо напрямок для мобільних */
+    gap: 20px;
+    /* Додаємо відступ між елементами */
+  }
+
+  .timeline {
+    padding: 0 10px;
+    /* Зменшуємо відступи таймлайну */
+  }
+
+  .timeline-item {
+    flex-direction: column;
+    /* Змінюємо напрямок для мобільних */
+    align-items: flex-start;
+    /* Вирівнюємо зліва */
+  }
+
+  .timeline-icon {
+    margin-bottom: 10px;
+    /* Додаємо відступ внизу */
+  }
+
+  .footer-contact p {
+    font-size: 15px;
+    /* Зменшуємо розмір шрифту */
+  }
+
+  .footer-contact a {
+    font-size: 15px;
+    /* Зменшуємо розмір шрифту */
+  }
+
+  .footer-rights {
+    font-size: 14px;
+    /* Зменшуємо розмір шрифту */
+  }
+
+
+}
