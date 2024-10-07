@@ -41,7 +41,6 @@ header .container {
 .logo-span {
   font-weight: 400;
   color: #ddd;
-
 }
 
 .logo-vc:hover {
@@ -57,6 +56,7 @@ nav .nav-logo {
   list-style: none;
   display: flex;
   gap: 60px;
+  margin-right: 40px;
 }
 
 nav ul li a {
@@ -103,7 +103,7 @@ nav ul li a:hover {
 }
 
 .profile-photo {
-  width: 300px;
+  width: 350px;
   height: auto;
   border-radius: 10px;
   object-fit: cover;
@@ -114,12 +114,12 @@ nav ul li a:hover {
 }
 
 h1 {
-  font-size: 46px;
+  font-size: 48px;
   color: #3a3a3a;
 }
 
 .job-title {
-  font-size: 28px;
+  font-size: 30px;
   color: #363535;
   margin: 10px 0;
 }
@@ -187,7 +187,7 @@ h1 {
 }
 
 .skills-column li {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 10px;
   padding-left: 10px;
   position: relative;
@@ -206,7 +206,6 @@ h1 {
   margin: 20px auto;
 }
 
-/*  */
 .experience-section {
   padding: 40px 20px;
   background-color: #f4f4f4;
@@ -246,24 +245,18 @@ h1 {
 .experience-item .company {
   font-size: 16px;
   color: #908d8d;
-  /* Світлий колір для компанії */
   margin-bottom: 10px;
 }
 
 .experience-item ul {
   list-style-type: disc;
-  /* Маркери списку */
   padding-left: 20px;
-  /* Відступ для списку */
 }
 
 .experience-item ul li {
   font-size: 16px;
   margin-bottom: 5px;
-  /* Відстань між пунктами списку */
 }
-
-
 
 .container-gray {
   max-width: 1200px;
@@ -307,18 +300,7 @@ ul {
   flex: 1;
 }
 
-.stat-item h3 {
-  font-size: 36px;
-  color: #f7d357;
-}
 
-.stat-item p {
-  font-size: 18px;
-  color: #1a3e5c;
-}
-
-/*  */
-/* Заголовок секції */
 .text-gray1 {
   font-size: 38px;
   color: #3a3a3a;
@@ -329,7 +311,6 @@ ul {
   letter-spacing: 1px;
 }
 
-/* Контейнер для таймлайну */
 .timeline {
   position: relative;
   max-width: 900px;
@@ -337,7 +318,6 @@ ul {
   padding: 20px 0;
 }
 
-/* Таймлайн елемент */
 .timeline-item {
   display: flex;
   justify-content: flex-start;
@@ -346,7 +326,6 @@ ul {
   position: relative;
 }
 
-/* Іконки в таймлайні */
 .timeline-icon {
   width: 60px;
   height: 60px;
@@ -362,9 +341,8 @@ ul {
   height: 45px;
 }
 
-/* Контент таймлайну */
 .timeline-content {
-  background-color: #e6e6e6;
+  background-color: #e6e6e663;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgb(26 26 26 / 58%);
@@ -391,12 +369,10 @@ ul {
   line-height: 1.6;
 }
 
-/* Вирівнювання для маленьких екранів */
 @media (max-width: 768px) {
   .timeline {
     padding: 0 20px;
   }
-
 
   .timeline-icon {
     margin-bottom: 10px;
@@ -438,7 +414,6 @@ ul {
 
 .footer-logo .logo-span {
   color: #ff6600;
-  /* Вибери основний акцентний колір */
 }
 
 /* Контактна інформація */
@@ -472,7 +447,6 @@ ul {
   transform: scale(1.2);
 }
 
-/* Права */
 .footer-rights {
   margin-top: 20px;
   font-size: 15px;

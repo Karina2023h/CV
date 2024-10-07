@@ -18,28 +18,23 @@
 
   header {
     padding: 15px 20px;
-    /* Зменшуємо відступи в заголовку */
   }
 
   header .container {
     flex-direction: column;
-    /* Переключаємо на колонку */
     align-items: center;
   }
 
   .logo-vc {
     font-size: 28px;
-    /* Зменшуємо розмір логотипу */
   }
 
   nav .nav-logo {
     gap: 20px;
-    /* Зменшуємо проміжок між навігаційними елементами */
   }
 
   .hero-section {
     padding: 40px 20px;
-    /* Зменшуємо відступи у секції героя */
   }
 
   .hero-text {
@@ -87,7 +82,7 @@
 
 
   .skills-column li {
-    font-size: 16px;
+    font-size: 17px;
     margin-bottom: 7px;
     padding-left: 10px;
     position: relative;
@@ -95,24 +90,19 @@
 
   .container-hero-content {
     flex-direction: column;
-    /* Змінюємо на колонку для мобільних */
     align-items: center;
-    /* Центруємо вміст */
   }
 
   .profile-photo {
     width: 85%;
-
   }
 
   h1 {
     font-size: 38px;
-    /* Зменшуємо розмір заголовка */
   }
 
   .job-title {
     font-size: 24px;
-    /* Зменшуємо розмір підзаголовка */
   }
 
   .intro {
@@ -121,30 +111,24 @@
 
   .contact {
     font-size: 16px;
-    /* Зменшуємо розмір контактного тексту */
   }
 
   .skills-grid {
     flex-direction: column;
-    /* Змінюємо напрямок для мобільних */
     align-items: center;
-    /* Центруємо вміст */
   }
 
   .skills-column {
     width: 100%;
     margin-bottom: 20px;
-
   }
 
   .experience-grid {
     flex-direction: column;
-    /* Змінюємо напрямок для мобільних */
   }
 
   .experience-item {
     width: 100%;
-    /* Ширина 100% на мобільних */
   }
 
   .experience-section {
@@ -154,21 +138,24 @@
 
   .info-grid {
     flex-direction: column;
-    /* Змінюємо напрямок для мобільних */
     align-items: center;
-    /* Центруємо вміст */
   }
 
   .stats-grid {
     flex-direction: column;
-    /* Змінюємо напрямок для мобільних */
     gap: 20px;
-    /* Додаємо відступ між елементами */
   }
 
   .timeline {
     padding: 0 10px;
-    /* Зменшуємо відступи таймлайну */
+  }
+
+  .timeline-content {
+    background-color: #e6e6e663;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgb(26 26 26 / 58%);
+    flex-grow: 1;
   }
 
   .container-foot {
@@ -182,25 +169,20 @@
     padding: 0;
   }
 
-
   .timeline-icon {
     margin-bottom: 10px;
-    /* Додаємо відступ внизу */
   }
 
   .footer-contact p {
     font-size: 15px;
-    /* Зменшуємо розмір шрифту */
   }
 
   .footer-contact a {
     font-size: 15px;
-    /* Зменшуємо розмір шрифту */
   }
 
   .footer-rights {
     font-size: 14px;
-    /* Зменшуємо розмір шрифту */
   }
 
 }
