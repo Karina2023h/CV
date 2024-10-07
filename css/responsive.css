@@ -48,18 +48,26 @@
   }
 
   .gray-section {
-    padding: 10px 20px;
+    padding: 20px;
   }
 
+  .noti {
+    border-top: 2px solid #000000;
+    width: 97%;
+    margin: 20px auto;
+    margin-top: -10px;
+  }
+
+
   .text-gray {
-    font-size: 34px;
+    font-size: 38px;
     color: #3a3a3a;
     text-align: center;
-    margin-bottom: 20px;
+
   }
 
   .text-java {
-    font-size: 16px;
+    font-size: 18px;
     color: #363535;
     margin: 10px 0;
   }
@@ -67,17 +75,19 @@
   .info-image img {
     width: 100%;
     border-radius: 10px;
+    height: 154px;
+
   }
 
   .skills-column h3 {
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: 15px;
     color: #333;
   }
 
 
   .skills-column li {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 7px;
     padding-left: 10px;
     position: relative;
@@ -91,14 +101,12 @@
   }
 
   .profile-photo {
-    width: 80%;
-    /* Зменшуємо ширину зображення */
-    margin-bottom: 20px;
-    /* Додаємо відступ знизу */
+    width: 85%;
+
   }
 
   h1 {
-    font-size: 36px;
+    font-size: 38px;
     /* Зменшуємо розмір заголовка */
   }
 
@@ -108,12 +116,11 @@
   }
 
   .intro {
-    font-size: 16px;
-    /* Зменшуємо розмір тексту */
+    font-size: 18px;
   }
 
   .contact {
-    font-size: 14px;
+    font-size: 16px;
     /* Зменшуємо розмір контактного тексту */
   }
 
@@ -140,6 +147,11 @@
     /* Ширина 100% на мобільних */
   }
 
+  .experience-section {
+    padding: 50px 20px;
+    background-color: #edecec;
+  }
+
   .info-grid {
     flex-direction: column;
     /* Змінюємо напрямок для мобільних */
@@ -159,12 +171,17 @@
     /* Зменшуємо відступи таймлайну */
   }
 
-  .timeline-item {
+  .container-foot {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
     flex-direction: column;
-    /* Змінюємо напрямок для мобільних */
-    align-items: flex-start;
-    /* Вирівнюємо зліва */
+    padding: 0;
   }
+
 
   .timeline-icon {
     margin-bottom: 10px;
@@ -185,6 +202,5 @@
     font-size: 14px;
     /* Зменшуємо розмір шрифту */
   }
-
 
 }
