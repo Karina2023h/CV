@@ -162,7 +162,9 @@ h1 {
 .text-java {
   font-size: 18px;
   color: #363535;
-  margin: 10px 0;
+  margin: 10px 0 auto;
+  width: 100%;
+  text-align: center;
 }
 
 .skills-section {
@@ -178,7 +180,7 @@ h1 {
 }
 
 .skills-column {
-  width: 45%;
+  width: 35%;
 }
 
 .skills-column h3 {
@@ -215,7 +217,7 @@ h1 {
 
 .experience-section {
   padding: 40px 20px;
-  background-color: #f4f4f4;
+  background-color: #f8f8f8;
 }
 
 .experience-grid {
@@ -286,7 +288,7 @@ h1 {
 }
 
 .info-image img {
-  width: 80%;
+  max-width: 100%;
   border-radius: 10px;
 }
 
@@ -404,7 +406,7 @@ ul {
 
 .container-foot {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   max-width: 1200px;
   width: 100%;
@@ -479,7 +481,6 @@ ul {
 .fixed-post {
   background-color: #2f2e2e;
   padding: 20px;
-  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
@@ -513,7 +514,7 @@ ul {
 }
 
 .full-text-container.open {
-  max-height: 500px;
+  max-height: max-content;
   opacity: 1;
 }
 
@@ -538,22 +539,70 @@ ul {
   font-size: 18px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
 
 .post {
   background-color: white;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 30px rgb(0 0 0 / 27%);
   text-align: center;
+  max-width: 900px;
 }
 
-.post img {
+.img-postar {
+  width: 100%;
+}
+
+.liner {
+  margin: 0 auto;
+  width: 100%;
+  height: 1px;
+  background-color: #bdb7b7;
+  margin-bottom: 10px;
+}
+
+.post-glav {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 1200px;
+}
+
+
+.img-postarsr {
+  width: 90%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 20px;
+
+}
+
+.full {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.img-postar {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
-  width: 720px;
-  height: 360px;
+  width: 360px;
+  height: 160px;
 }
 
 #toggleButton {
@@ -585,6 +634,28 @@ ul {
   color: #333;
 }
 
+.text-block1 {
+  font-size: 38px;
+  line-height: 1.5;
+  color: #393838;
+}
+
+.img-post {
+  width: 70%;
+  border-radius: 10px;
+  height: auto;
+}
+
+.shortes-text {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #323131;
+  margin-bottom: 40px;
+}
+
 .parg-block {
   font-size: 16px;
   line-height: 1.5;
@@ -598,4 +669,61 @@ ul {
   color: #0e0d0d;
   width: 64%;
   margin: 0 auto;
+}
+
+.prifile-section {
+  background: linear-gradient(135deg, #ffffff, #d7d3c9, #ffffff);
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+
+
+.container-hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.profile-foto-square {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 30px;
+  border: 5px solid #ff6600;
+  /* Orange border */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  /* Soft shadow */
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.intro {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #333;
+  /* Dark gray text */
+  margin-bottom: 20px;
+}
+
+.btn-prfil {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-prfil:hover {
+  background-color: #e65c00;
+  /* Darker orange */
 }

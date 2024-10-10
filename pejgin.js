@@ -8,7 +8,7 @@ function toggleText(element) {
     fullTextContainer.classList.add("open");
     element.textContent = "Згорнути";
   } else {
-    fullTextContainer.classList.remove("open");
-    element.textContent = "Читати далі";
+    fullTextContainer.classList.remove("open"); // Закрити текст
+    element.textContent = "Читати далі"; // Повернути текст посилання
   }
 }

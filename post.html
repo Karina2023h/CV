@@ -22,26 +22,39 @@
       </div>
       <p class="short-description">Цей проект присвячений темі програмування на Java...</p>
       <p class="full-description"></p>
-      <button id="toggleButton" onclick="togglePost()">Розгорнути</button>
+
     </div>
   </header>
-  <main id="postContainer">
-    <div class="post">
-      <div class="line"></div>
-      <h2 class="text-block">Механізми CAS і FAA глазами Java розробника</h2>
-      <p class="parg-block">May 1, 2023 by proselyte Leave a Comment</p>
-      <img src="./img/block1.webp" alt="Зображення 1">
+  <main>
+    <div style="box-shadow:none" class="post">
+      <div style="background-color: #ff6600;" class="liner"></div>
+      <h2 class="text-block1">Механізми CAS і FAA глазами Java розробника</h2>
+      <img class="img-postarsr" src="./img/block1.webp" alt="Зображення 1">
 
-      <p class="short-text">В данной статье мы рассмотрим механизмы обеспечения многопоточных вычислений CAS и FAA с
+      <p class="shortes-text">В данной статье мы рассмотрим механизмы обеспечения многопоточных вычислений CAS и FAA с
         точки
         зрения Java разработчика...</p>
+      <div style="display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;" class="full-text-container">
+        <div class="full">
+          <img class="img-postar" src="./img/block3.webp" alt="Зображення 2">
+          <p>CAS (Compare-and-Swap) — це один з найбільш поширених механізмів атомарних операцій...</p>
+        </div>
 
-      <div class="full-text-container">
-        <p class="full-text">Содержание статьи: Введение 1.1. Определение CAS и FAA 1.2. Обоснование важности атомарных
-          операций 1.3. Краткий обзор применения CAS и FAA в многопоточных приложениях. CAS (Compare-and-Swap) 2.1.
-          Описание
-          механизма CAS 2.2. Примеры использования CAS в Java 2.2.1. AtomicInteger, AtomicLong и другие примеры...</p>
+        <div class="full">
+          <img class="img-postar" src="./img/block3.webp" alt="Зображення 2">
+          <p>CAS (Compare-and-Swap) — це один з найбільш поширених механізмів атомарних операцій...</p>
+        </div>
+
+        <div class="full">
+          <img class="img-postar" src="./img/block3.webp" alt="Зображення 2">
+          <p>CAS (Compare-and-Swap) — це один з найбільш поширених механізмів атомарних операцій...</p>
+        </div>
       </div>
+
       <a href="javascript:void(0);" class="read-more" onclick="toggleText(this)" style="color: #ff6600;">Читати далі</a>
     </div>
 
@@ -49,7 +62,7 @@
       <div class="line"></div>
       <h2 class="text-block">ExecutorService в Java и примеры его применения</h2>
       <p class="parg-block">April 22, 2023 by proselyte Leave a Comment</p>
-      <img src="./img/block2.webp" alt="Зображення 2">
+      <img class="img-post" src="./img/block2.webp" alt="Зображення 2">
       <p class="short-text">В данной статье мы рассмотрим механизмы обеспечения многопоточных вычислений CAS и FAA с
         точки
         зрения Java разработчика...</p>
@@ -68,7 +81,7 @@
       <div class="line"></div>
       <h2 class="text-block">Особенности работы PreparedStatement в JDBC</h2>
       <p class="parg-block">April 1, 2023 by proselyte Leave a Comment</p>
-      <img src="./img/block3.webp" alt="Зображення 3">
+      <img class="img-post" src="./img/block3.webp" alt="Зображення 3">
       <p class="short-text">В данной статье мы рассмотрим механизмы обеспечения многопоточных вычислений CAS и FAA с
         точки
         зрения Java разработчика...</p>
@@ -87,7 +100,7 @@
       <div class="line"></div>
       <h2 class="text-block">Основы кэширования в Hibernate</h2>
       <p class="parg-block">March 29, 2023 by proselyte Leave a Comment</p>
-      <img src="./img/block4.webp" alt="Зображення 4">
+      <img class="img-post" src="./img/block4.webp" alt="Зображення 4">
       <p class="short-text">В данной статье мы рассмотрим механизмы обеспечения многопоточных вычислений CAS и FAA с
         точки
         зрения Java разработчика...</p>
@@ -106,7 +119,7 @@
       <div class="line"></div>
       <h2 class="text-block">Феномены чтения глазами разработчика</h2>
       <p class="parg-block">March 25, 2023 by proselyte Leave a Comment</p>
-      <img src="./img/block5.webp" alt="Зображення 5">
+      <img class="img-post" src="./img/block5.webp" alt="Зображення 5">
       <p class="short-text">В данной статье мы рассмотрим механизмы обеспечения многопоточных вычислений CAS и FAA с
         точки
         зрения Java разработчика...</p>
@@ -125,7 +138,7 @@
       <div class="line"></div>
       <h2 class="text-block">Устройство и работа JVM (Java Virtual Machine)</h2>
       <p class="parg-block">March 29, 2023 by proselyte Leave a Comment</p>
-      <img src="./img/block3.webp" alt="Зображення 6">
+      <img class="img-post" src="./img/block3.webp" alt="Зображення 6">
       <p class="short-text">В данной статье мы рассмотрим механизмы обеспечения многопоточных вычислений CAS и FAA с
         точки
         зрения Java разработчика...</p>
@@ -144,7 +157,7 @@
       <div class="line"></div>
       <h2 class="text-block">Полезность: SOLID глазами разработчика</h2>
       <p class="parg-block">March 25, 2023 by proselyte Leave a Comment</p>
-      <img src="./img/block3.webp" alt="Зображення 3">
+      <img class="img-post" src="./img/block3.webp" alt="Зображення 3">
       <p class="short-text">В данной статье мы рассмотрим механизмы обеспечения многопоточных вычислений CAS и FAA с
         точки
         зрения Java разработчика...</p>
@@ -158,35 +171,34 @@
 
       <a href="javascript:void(0);" class="read-more" onclick="toggleText(this)" style="color: #ff6600;">Читати далі</a>
     </div>
+  </main>
 
-
-    <footer class="footer">
-      <div id="contact" class="container-footer">
-        <div class="container-foot">
-          <div class="footer-logo">
-            <div class="logo">
-              <h1 class="logo-vc">Vasyl.<span class="logo-span">Cv</span></h1>
-            </div>
-          </div>
-
-          <div class="footer-contact">
-            <p>Email: <a href="mailto:mr.shtoiko@gmail.com">mr.shtoiko@gmail.com</a></p>
-            <p>Телефон: +4540461991</p>
-          </div>
-
-          <div class="social-links">
-            <a href="https://github.com/ShtoikoVasyl" class="social-link" target="_blank">
-              <img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="GitHub">
-            </a>
-            <a href="https://linkedin.com/in/vasyl-shtoiko" class="social-link" target="_blank">
-              <img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png" alt="LinkedIn">
-            </a>
+  <footer class="footer">
+    <div id="contact" class="container-footer">
+      <div class="container-foot">
+        <div class="footer-logo">
+          <div class="logo">
+            <h1 class="logo-vc">Vasyl.<span class="logo-span">Cv</span></h1>
           </div>
         </div>
-        <p class="footer-rights">2024 Vasyl.Cv</p>
+
+        <div class="footer-contact">
+          <p>Email: <a href="mailto:mr.shtoiko@gmail.com">mr.shtoiko@gmail.com</a></p>
+          <p>Телефон: +4540461991</p>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/ShtoikoVasyl" class="social-link" target="_blank">
+            <img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="GitHub">
+          </a>
+          <a href="https://linkedin.com/in/vasyl-shtoiko" class="social-link" target="_blank">
+            <img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png" alt="LinkedIn">
+          </a>
+        </div>
       </div>
-    </footer>
-  </main>
+      <p class="footer-rights">2024 Vasyl.Cv</p>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
   <script src="pejgin.js"></script>
