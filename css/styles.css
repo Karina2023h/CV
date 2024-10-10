@@ -503,17 +503,11 @@ ul {
   color: inherit;
 }
 
-
-
 .full-text-container {
   max-height: 0;
-  /* Початкова висота */
   opacity: 0;
-  /* Сховати текст */
   overflow: hidden;
-  /* Сховати переповнені елементи */
   transition: max-height 0.5s ease, opacity 0.5s ease;
-  /* Плавний перехід */
 }
 
 .full-text-container.open {
