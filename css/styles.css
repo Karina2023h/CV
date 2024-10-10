@@ -498,6 +498,11 @@ ul {
   padding: 20px;
 }
 
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .post {
   background-color: white;
   padding: 20px;

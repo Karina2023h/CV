@@ -252,5 +252,8 @@
     margin-top: 20px;
   }
 
-
+  .logo-link {
+    text-decoration: none;
+    color: inherit;
+  }
 }
