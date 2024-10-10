@@ -503,6 +503,46 @@ ul {
   color: inherit;
 }
 
+
+
+.full-text-container {
+  max-height: 0;
+  /* Початкова висота */
+  opacity: 0;
+  /* Сховати текст */
+  overflow: hidden;
+  /* Сховати переповнені елементи */
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+  /* Плавний перехід */
+}
+
+.full-text-container.open {
+  max-height: 500px;
+  opacity: 1;
+}
+
+.short-text {
+  display: block;
+  width: 64%;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #0e0d0d;
+}
+
+.full-text {
+  width: 64%;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #0e0d0d;
+}
+
+.read-more {
+  font-size: 18px;
+}
+
+
 .post {
   background-color: white;
   padding: 20px;
