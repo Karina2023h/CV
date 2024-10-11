@@ -491,6 +491,32 @@ ul {
   overflow: hidden;
   max-height: 150px;
   transition: max-height 0.3s ease-in-out;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.social-linka {
+  display: flex;
+  gap: 25px;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+
+.social-linker {
+  text-decoration: none;
+  color: #ff6600;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.social-linker:hover {
+  color: #ffffff;
 }
 
 .full-description {
