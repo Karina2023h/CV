@@ -28,6 +28,9 @@ header {
   background-color: #2f2e2e;
   color: #fff;
   padding: 15px 60px;
+
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header .container {
