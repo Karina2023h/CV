@@ -6,9 +6,9 @@ function toggleText(element) {
 
   if (!isOpen) {
     fullTextContainer.classList.add("open");
-    element.textContent = "Collapse";
+    element.textContent = "Закрити";
   } else {
     fullTextContainer.classList.remove("open"); // Закрити текст
-    element.textContent = "Read more"; // Повернути текст посилання
+    element.textContent = "Переглянути"; // Повернути текст посилання
   }
 }
